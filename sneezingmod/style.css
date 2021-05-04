@@ -1,0 +1,161 @@
+:root {
+    --bg-color-1: #161616;
+    --bg-color-2: #262626;
+    --bg-color-3: #333333;
+    --main-color: #00FF00;
+    --main-color2: #FFFFFF;
+    --button-normal: #333333;
+    --button-highlighted: #444444;
+    --button-disabled: #222222;
+}
+
+
+@font-face {
+    font-family: futurept_light;
+    src: url(fonts/futurept_light.otf);
+}
+@font-face {
+    font-family: futurept_book;
+    src: url(fonts/futurept_book.otf);
+}
+@font-face {
+    font-family: futurept_demi;
+    src: url(fonts/futurept_demi.otf);
+}
+@font-face {
+    font-family: futurept_medium;
+    src: url(fonts/futurept_medium.otf);
+}
+@font-face{
+    font-family: futurept_b1;
+    src: url(fonts/futurept_b1.otf);
+}
+@font-face{
+    font-family: futurept_bold;
+    src: url(fonts/futurept_bold.otf);
+}
+@font-face {
+    font-family: futurept_demi_oblique;
+    src: url(fonts/futurept_demi_oblique.otf);
+}
+@font-face {
+    font-family: futurept_medium_oblique;
+    src: url(fonts/futurept_medium_oblique.otf);
+}
+
+
+body {
+    background-color: var(--bg-color-1);
+    color: var(--main-color);
+    font-family: 'futurept_b1';
+    margin: 0;
+}
+
+header {
+    background-color: var(--bg-color-2);
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+.cactusSvg {
+    padding: 5px;
+}
+
+.headerText {
+    font-family: 'futurept_medium';
+    text-align: left;
+    font-size: 32px;
+    margin: 0 10px 0 0;
+    padding: 5px;
+}
+
+.headerButton {
+    background-color: var(--button-normal);
+    font-family: 'futurept_medium';
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 0;
+    padding: 25px;
+    margin-left: 5px;
+    color: var(--main-color2);
+}
+
+.headerButton:hover{
+    background-color: var(--button-highlighted);
+}
+
+.headerButtonDisabled {
+    background-color: var(--button-disabled);
+    color: var(--bg-color-3);
+    pointer-events: none;
+}
+
+.smOverview {
+    width: 100%;
+    min-height: 500px;
+    background: var(--bg-color-2);
+    padding: 10px 0 10px 0;
+}
+
+.smFeature1 {
+    width: 100%;
+    min-height: 500px;
+    background: var(--bg-color-3);
+    padding: 10px 0 10px 0;
+}
+
+.smFeature2 {
+    width: 100%;
+    min-height: 500px;
+    background: var(--bg-color-2);
+    padding: 10px 0 10px 0;
+}
+
+.smTop {
+    padding: 10% 0 10% 0;
+    text-align: center;
+}
+
+.smTitle {
+    font-family: 'futurept_medium_oblique';
+    font-size: 72px;
+    margin: 0 10px 0 10px;
+    text-shadow: 10px 10px #00000055;
+}
+
+.smSubTitle {
+    font-family: 'futurept_medium';
+    font-size: 24px;
+    margin: 0 10px 0 10px;
+}
+
+.smParagraph {
+    font-family: 'futurept_b1';
+    font-size: 24px;
+    margin: 10px;
+    color: var(--main-color2);
+}
+
+.smInside {
+    max-width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.smLeft {
+    text-align: right;
+    height: 100%;
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.smRight {
+    height: 100%;
+    width: 40%;
+    float: right;
+}
+
+a {
+    color: var(--main-color);
+}
