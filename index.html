@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <div data-relative-input="true" id="scene">
+        <div class="desertlayer" data-depth="0.2" data-origin-y="0.5"><img src="images/layer1.svg"></img></div>
+        <div class="desertlayer" data-depth="0.4" data-origin-y="0.5"><img src="images/layer2.svg"></img></div>
+        <div class="desertlayer" data-depth="0.6" data-origin-y="0.5"><img src="images/layer3.svg"></img></div>
+        <div class="desertlayer" data-depth="0.8" data-origin-y="0.5"><img src="images/layer4.svg"></img></div>
+      </div>
+      <div class="sneezinginfo">
+        <h1>Hello! I am SneezingCactus</h1>
+        <p>placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text</p>
+      </div>
+
+      <script>
+        var scene = document.getElementById('scene');
+        var parallaxInstance = new Parallax(scene, {
+          relativeInput: true
+        });
+      </script>
+    </body>
+</html>

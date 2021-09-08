@@ -1,0 +1,92 @@
+:root {
+    --bg-color-1: #161616;
+    --bg-color-2: #262626;
+    --bg-color-3: #333333;
+    --main-color: #00FF00;
+    --main-color2: #FFFFFF;
+    --button-normal: #333333;
+    --button-highlighted: #444444;
+    --button-disabled: #222222;
+}
+
+
+@font-face {
+    font-family: futurept_light;
+    src: url(fonts/futurept_light.otf);
+}
+@font-face {
+    font-family: futurept_book;
+    src: url(fonts/futurept_book.otf);
+}
+@font-face {
+    font-family: futurept_demi;
+    src: url(fonts/futurept_demi.otf);
+}
+@font-face {
+    font-family: futurept_medium;
+    src: url(fonts/futurept_medium.otf);
+}
+@font-face{
+    font-family: futurept_b1;
+    src: url(fonts/futurept_b1.otf);
+}
+@font-face{
+    font-family: futurept_bold;
+    src: url(fonts/futurept_bold.otf);
+}
+@font-face {
+    font-family: futurept_demi_oblique;
+    src: url(fonts/futurept_demi_oblique.otf);
+}
+@font-face {
+    font-family: futurept_medium_oblique;
+    src: url(fonts/futurept_medium_oblique.otf);
+}
+
+html {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: linear-gradient(#69aae6, #5bf8f3);
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin: 0;
+}
+
+.desertlayer {
+  width: 100vw;
+  height: 100vh;
+}
+
+img {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  transform: scale(1.2);
+}
+
+.sneezinginfo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  color: #007e3f;
+}
+
+h1 {
+  font-family: 'futurept_medium_oblique';
+  font-size: 5vw;
+  text-align: center;
+  line-height: 0; 
+}
+
+p {
+  font-family: 'futurept_medium_oblique';
+  font-size: 2vw;
+  text-align: center;
+}
